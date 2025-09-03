@@ -1,0 +1,179 @@
+body {
+    background-color: #f4eaea !important;
+}
+
+
+.bg-body-tertiary {
+    background-color: #33A1E0 !important;
+    color: rgb(0, 0, 0) !important; 
+    
+
+    
+}
+.navbar-nav {
+    display: flex;
+    gap: 5px;
+  
+    
+}
+.navbar-nav > a {
+    
+    color: azure !important;
+    margin-left: 100px;
+ 
+}
+
+#hero-section {
+    
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 200;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8PxLUswEokqA8hkHLuoA9_n6GVkSow_Lu5Q&s) ;
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+    
+    
+}
+
+
+
+
+
+
+h1 {
+    color: red;
+    margin-top: 25;
+}
+h2 {
+    color: #FFFCFB;
+    padding-top : 50px;
+    padding-bottom: 30;
+    margin-bottom: 100px;
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+    
+}
+.button {
+    background-color: #AFDDFF;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 20%;
+    border: none;
+    
+    
+}
+
+.container-fluid > a {
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+/* CAROUSEL */
+
+.carousel-item>img {
+    height: 500px;
+    object-fit: cover;
+    width: 100vw;
+    opacity: 0.3;
+    
+}
+.review{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background: #000000;
+    
+    
+    
+}
+
+/* footer */
+
+.footer {
+    position: relative;
+    background-color: #33A1E0 ;
+    height: 250px;
+    width: 100%;
+}
+
+
+.footer>p {
+    color: #FAF9EE;
+    position: absolute;
+    top: 215;
+    left: 30px;
+}
+
+.footer>.quick-links {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.quick-links>a {
+    color: #ffffff;
+}
+
+/* about-us */
+
+.about-us {
+    text-align: center;
+}
+
+/* Product-Style */
+
+.product {
+  border: 1px solid #33A1E0;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #FAF9EE;
+}
+#product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.products-page {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 960px) {
+ 
+.navbar-nav > a {
+    
+    color: azure !important;
+    margin-left: 0px;
+ 
+}
+
+}
+
+
+
+@media(min-width: 1000px) {
+    div > .navbar-nav {
+    position: relative;
+    left: 200px;
+}
+
+}
+
+
