@@ -172,6 +172,14 @@ h5 {
   gap: 10px;
 }
 
+.product {
+  border: 1px solid #33A1E0;
+  padding: 1px;
+  margin: 10px;
+  text-align: center;
+  background-color: #FAF9EE;
+}
+
 
 
 @media(min-width: 1000px) {
@@ -181,6 +189,7 @@ h5 {
 }
 
 }
+
 
 
 
