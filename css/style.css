@@ -168,13 +168,13 @@ h5 {
 
 #product-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 0.5fr);
   gap: 10px;
 }
 
 .product {
   border: 1px solid #33A1E0;
-  padding: 1px;
+  padding: 10px;
   margin: 10px;
   text-align: center;
   background-color: #FAF9EE;
@@ -189,6 +189,7 @@ h5 {
 }
 
 }
+
 
 
 
