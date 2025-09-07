@@ -39,3 +39,4 @@ function updateCartCount() {
 }
 
 window.onload = updateCartCount;
+
